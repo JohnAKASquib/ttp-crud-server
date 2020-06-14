@@ -120,6 +120,7 @@ router.put("/:id", async (req, res, next) => {
 });
 
 // Route to handle removing a campus
+// /api/campuses/:id
 router.delete("/:id", async (req, res, next) => {
   const { id } = req.params;
   // get an id for a campus to delete
